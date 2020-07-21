@@ -1,0 +1,1 @@
+command: jupyter nbconvert --to notebook --inplace --execute CompetitionStartingKit.ipynb
