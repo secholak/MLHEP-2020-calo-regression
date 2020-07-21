@@ -1,1 +1,1 @@
-command: jupyter nbconvert --to notebook --inplace --execute CompetitionStartingKit.ipynb
+command: INPUT_DATA_PATH=$input OUTPUT_DATA_PATH=$output jupyter nbconvert --to notebook --inplace --execute $program/CompetitionStartingKit.ipynb
