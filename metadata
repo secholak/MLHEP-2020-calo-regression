@@ -1,1 +1,1 @@
-command: INPUT_DATA_PATH=$input OUTPUT_DATA_PATH=$output jupyter nbconvert --ExecutePreprocessor.timeout=-1 --to notebook --execute $program/CompetitionStartingKit.ipynb --output $output/output.ipynb
+command: INPUT_DATA_PATH=$input OUTPUT_DATA_PATH=$output jupyter nbconvert --ExecutePreprocessor.allow_errors=True --ExecutePreprocessor.timeout=-1 --to notebook --execute $program/CompetitionStartingKit.ipynb --output $output/output.ipynb
